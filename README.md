@@ -2,6 +2,12 @@
 
 Notanormous is completely and utterly not an ORM. It sort of rhymes with 'enormous,' which is kinda like 'humongous', which is where the 'mongo' in MongoDB comes from, which is wildly appropriate because Notanormous is meant to be used with MongoDB and no other DB, because they are no fun anymore.
 
+## Probably Don't Use This!
+
+Last time I checked, this is still in production at my former employer, where it is unlikely to ever get hit by more than 12 users at once. It seems to be working fine, however I would not consider this battle-tested. It's not memory efficient, which is fine for a small company's internal server. I'd look into other options before throwing lots of users at it. Aside from that, have fun with it.
+
+I'm mainly publishing this so that prospective clients or employers can see that I know how to use advanced Python concepts like Metaclass programming. Check `document.py` to see that part.
+
 ## The Run-Down
 
 * The best way to see how this works is to read `tests/tests.py`
